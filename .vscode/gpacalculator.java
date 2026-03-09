@@ -27,6 +27,23 @@ public class gpacalculator {
         double sumtotal=0;
 
         for(int i = 1; i <= N; i++){
+             System.out.print("Enter grade for class ");
+             int grade=kb.nextInt();
+             System.out.println("Enter class type: On-level, Honors, AP");
+             String classType= kb.nextLine();
+             if (classType="On-level"){
+                grade=grade;
+             } else if (classType="Honors"){
+                grade=grade+Honorsweight;
+             }else if (classType="AP"){
+                grade=grade+APweight;
+             }else{
+                System.out.println("Enter valid type");
+             }
+            
+
+            
+        }
       
         
         
