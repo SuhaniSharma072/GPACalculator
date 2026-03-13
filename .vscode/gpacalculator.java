@@ -50,7 +50,7 @@ public class gpacalculator {
         double GPA = sumtotal / N;
         System.out.printf("Your weighted GPA on a 100.0 scale is: %.2f ",GPA);
       
-   //arrayy
+   
         
         
     }
